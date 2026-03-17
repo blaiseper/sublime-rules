@@ -1,4 +1,4 @@
-name: "ADE Auto Run - Spam"
+name: "Run ADE Automatically - Spam"
 description: "Run ADE Automatically"
 type: "triage_rule"
 triage_classification_changes: true
