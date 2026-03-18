@@ -4,4 +4,4 @@ type: "triage_rule"
 triage_flagged_messages: true
 default_actions: ["quarantine_message"]
 source: "true"
-internal_type: "some_type"
+internal_type: "ade_auto_review"
