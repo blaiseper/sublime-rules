@@ -1,7 +1,0 @@
-name: "blaise"
-description: "Quarantine flagged messages for blaise."
-type: "triage_rule"
-triage_flagged_messages: true
-default_actions: ["quarantine_message"]
-source: type.internal
-id: 133ced22-0468-4637-ae04-7d4ccd11a36e
