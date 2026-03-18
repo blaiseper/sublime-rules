@@ -5,6 +5,5 @@ triage_classification_changes: true
 triage_asa_complete: true
 active: false
 default_actions: ["ade_auto_run"]
-internal_type: "run_ade_automatically_malicious"
 source: |
   triage.classification.classification =~ "malicious" or triage.agents.asa.verdict =~ "malicious"
