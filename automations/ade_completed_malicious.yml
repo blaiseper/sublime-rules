@@ -5,5 +5,4 @@ triage_ade_complete: true
 default_actions: ["ade_auto_review"]
 internal_type: "ade_complete_malicious"
 source: |
-  triage.trigger == "ade_complete"
-  and (triage.classification.classification =~ "malicious" or triage.agents.asa.verdict =~ "malicious")
+  triage.classification.classification =~ "malicious" or triage.agents.asa.verdict =~ "malicious"
