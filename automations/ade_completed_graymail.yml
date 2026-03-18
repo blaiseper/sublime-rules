@@ -1,5 +1,5 @@
-name: "ADE Completed - Graymail"
-description: "An ADE job has completed"
+name: "ADÉ Completed - Graymail"
+description: "An ADÉ job has completed"
 type: "triage_rule"
 triage_ade_complete: true
 default_actions: ["ade_auto_review"]
