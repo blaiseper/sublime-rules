@@ -1,0 +1,7 @@
+name: "blaise 3"
+description: "Quarantine flagged messages for blaise."
+type: "triage_rule"
+triage_flagged_messages: true
+default_actions: ["quarantine_message"]
+source: "true"
+id: "07e9d712-dc2a-49ae-98a1-8b2a7fc0e4ac"
