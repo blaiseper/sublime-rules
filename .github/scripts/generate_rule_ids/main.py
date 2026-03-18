@@ -2,7 +2,7 @@ import os
 import yaml
 import uuid
 
-RULE_DIRS = ['detection-rules']
+RULE_DIRS = ['detection-rules', 'automations']
 
 
 def _uuid_from_string(string):
