@@ -1,7 +1,0 @@
-name: "blaise 5"
-description: "5 Quarantine flagged messages for blaise."
-type: "triage_rule"
-triage_flagged_messages: true
-default_actions: ["quarantine_message"]
-source: "true"
-internal_type: "ade_auto_review"
