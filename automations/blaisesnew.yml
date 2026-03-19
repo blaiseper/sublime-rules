@@ -1,7 +1,0 @@
-name: "blaises new automation 1"
-description: "Blaise will do what he wants."
-type: "triage_rule"
-triage_flagged_messages: true
-default_actions: ["quarantine_message"]
-source: type.internal
-internal_type: ade_auto_run

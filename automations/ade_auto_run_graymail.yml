@@ -3,7 +3,6 @@ description: "Run ADÉ Automatically"
 type: "triage_rule"
 triage_classification_changes: true
 triage_asa_complete: true
-active: false
 default_actions: ["run_ade_automatically"]
 source: |
   triage.classification.classification =~ "graymail" or triage.agents.asa.verdict =~ "graymail"
